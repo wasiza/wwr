@@ -28,7 +28,7 @@ try:
 
         if time_elapsed.total_seconds() >= 0:
             lcd.clear()
-            lcd.write_string("Countdown finished!")
+            lcd.write_string("The start of wwr")
             lcd.backlight_enabled = False  # Turn off backlight
             time.sleep(2)  # Wait for 2 seconds to display the message
             cleanup_handler(None, None)
